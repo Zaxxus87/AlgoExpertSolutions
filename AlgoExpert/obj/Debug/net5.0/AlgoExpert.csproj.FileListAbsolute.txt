@@ -1,0 +1,16 @@
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\bin\Debug\net5.0\AlgoExpert.exe
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\bin\Debug\net5.0\AlgoExpert.deps.json
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\bin\Debug\net5.0\AlgoExpert.runtimeconfig.json
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\bin\Debug\net5.0\AlgoExpert.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\bin\Debug\net5.0\AlgoExpert.dll
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\bin\Debug\net5.0\ref\AlgoExpert.dll
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\bin\Debug\net5.0\AlgoExpert.pdb
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.dll
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\ref\AlgoExpert.dll
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.pdb
+C:\Users\jeffr\Desktop\repos\AlgoExpert\AlgoExpert\obj\Debug\net5.0\AlgoExpert.genruntimeconfig.cache
