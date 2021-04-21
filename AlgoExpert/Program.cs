@@ -6,11 +6,12 @@ class Program
    static void Main(string[] args)
    {
 		string output = "[";
-		var ray = InsertionSort(new int[] { 8, 5, 2, 9, 5, 6, 3 });
+		var ray = InsertionSort(new int[] { 3,1,7,2,9,5,6,8,4 });
 		foreach(int num in ray)
         {
 			output += $"{num}, ";
         }
+        output = output.TrimEnd(' ');
 		output = output.TrimEnd(',') + "]";
         Console.WriteLine(output);
 
