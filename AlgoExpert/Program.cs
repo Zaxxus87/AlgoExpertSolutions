@@ -1,35 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 class Program
 {
    static void Main(string[] args)
-   {
-		string output = "[";
-		var ray = InsertionSort(new int[] { 3,1,7,2,9,5,6,8,4 });
-		foreach(int num in ray)
-        {
-			output += $"{num}, ";
-        }
-        output = output.TrimEnd(' ');
-		output = output.TrimEnd(',') + "]";
-        Console.WriteLine(output);
-
+    {
+		var test = new LLClass(1);
+		test.Add(1);
+		test.Add(1);
+		test.Add(3);
+		test.Add(4);
+		test.Add(4);
+		test.Add(4);
+		test.Add(5);
+		test.Add(6);
+		test.Add(6);
+        Console.WriteLine(test.PrintList());
+        Console.WriteLine(RemoveDuplicatesFromLinkedList(test).PrintList());
 	}
 
-	public static int[] InsertionSort(int[] array)
-	{
-		for (int i = 0; i < array.Length - 1; i++)
-		{
-			int j = i + 1;
-			int temp = array[j];
-			while (j > 0 && temp < array[j - 1])
+	public static LLClass RemoveDuplicatesFromLinkedList(LLClass linkedList)
+    {
+		LLClass temp = linkedList;
+        //Console.WriteLine(temp.PrintList());
+		while (temp.Next != null)
+        {
+			while (temp.Next != null && temp.Value == temp.Next.Value)
 			{
-				array[j] = array[j - 1];
-				j--;
+				if (temp.Next.Next != null)
+					temp.Next = temp.Next.Next;
+				else
+					temp.Next = null;
 			}
-			array[j] = temp;
+			if (temp.Next != null)
+				temp = temp.Next;
 		}
-		return array;
+		return linkedList;
 	}
 }
